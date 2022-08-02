@@ -15,7 +15,7 @@ public class MyCat extends Cat
     {
         boolean cansado=isSleepy();
         if(cansado==true){
-            sleep(2); 
+            sleep(2); //Durmamos un poquito
             shoutHooray();
         }
         else{
